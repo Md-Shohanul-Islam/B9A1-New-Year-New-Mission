@@ -2,6 +2,8 @@
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
 }
 /* header styles  */
 header{
@@ -29,4 +31,87 @@ header{
     font-weight: 900;
     margin-top: 20px;
     padding: 0 0 177px 340px;
+}
+/* discount related styles  */
+.discount{
+    margin: 70px 399px;
+    display: inline-block;
+}
+.off{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 48px;
+}
+.deals{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 0 16px;
+}
+.categories{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 48px;
+}
+.hny{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+/* welcome related styles  */
+.welcome{
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px;
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    display: flex;
+    border-radius: 16px;
+}
+.welcome-party{
+    color: #FFF;
+}
+.welcome-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin: 126px 0 0 126px;
+}
+.welcome-info{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 0 0 0 126px;
+    padding: 24px 0 48px;
+}
+.welcome a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 48px 0 142px 158px;
+}
+.welcome-pic{
+    height: 500px;
+    margin: 68px 130px 68px 0;
 }
