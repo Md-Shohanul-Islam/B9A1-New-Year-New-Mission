@@ -1,0 +1,32 @@
+/* common style  */
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+/* header styles  */
+header{
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
+    border-radius: 16px;
+}
+.greetings{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 177px 0 0 0;
+}
+.greetings-title{
+    color: #FFF;
+    width: 632px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 20px;
+    padding: 0 0 177px 340px;
+}
